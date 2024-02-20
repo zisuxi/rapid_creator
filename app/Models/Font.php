@@ -9,6 +9,7 @@ class Font extends Model
 {
     use HasFactory;
     protected $fillable = [
+        'user_id',
         'font_name',
         'font_zip_file',
         'font_status'

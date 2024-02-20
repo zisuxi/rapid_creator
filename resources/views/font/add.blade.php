@@ -126,7 +126,7 @@
                     processData: false,
                     contentType: false,
                     data: formData,
-                    success: function(res) {
+                    success:function(res) {
                         alert(res);
                     }
                 })

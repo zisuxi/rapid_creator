@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('fonts', function (Blueprint $table) {
             $table->id();
+            $table->string('user_id');  
             $table->string("font_name");
             $table->longText("font_zip_file");
             $table->string("font_status");

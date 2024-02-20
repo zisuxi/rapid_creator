@@ -41,7 +41,8 @@
                             </div>
                             <div class="card-toolbar">
                                 <div class="d-flex justify-content-end" data-kt-customer-table-toolbar="base">
-                                    <a href="{{ url('/csv/create') }}" class="btn btn-primary btn-sm"><i class="fas fa-upload"></i>
+                                    <a href="{{ url('/csv/create') }}" class="btn btn-primary btn-sm"><i
+                                            class="fas fa-upload"></i>
                                         Upload CSV</a>
                                 </div>
                             </div>
@@ -88,7 +89,8 @@
                                             </td>
                                             <td>
                                                 <button class="btn btn-danger btn-sm text-capitalizebtn-icon cursor-pointer"
-                                                    onclick="deleteData(this,'{{ url('/csv') }}','{{ $csv_file->id }}','CSV')"><i class="fas fa-trash fs-6"></i>
+                                                    onclick="deleteData(this,'{{ url('/csv') }}','{{ $csv_file->id }}','CSV')"><i
+                                                        class="fas fa-trash fs-6"></i>
                                                     Delete</button>
                                             </td>
                                         </tr>
